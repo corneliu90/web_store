@@ -698,7 +698,7 @@
 }
 
 .watches .porto-watches {
-  background-image: url(/img/banner-1.jpg);
+  background-image: url(img/banner-1.jpg);
 }
 
 .watches .porto-watches .watches-title {
@@ -742,7 +742,7 @@
 }
 
 .watches .deal-promos {
-  background-image: url(/img/banner-2.jpg);
+  background-image: url(img/banner-2.jpg);
   border: 1em solid #08c;
 }
 
@@ -1145,35 +1145,35 @@
 
 .product-category .item .dress1 {
   position: relative;
-  background: url("/img/category-1.jpg") no-repeat 50% 0;
+  background: url("img/category-1.jpg") no-repeat 50% 0;
   height: 180px;
   background-size: 120%;
 }
 
 .product-category .item .watches {
   position: relative;
-  background: url("/img/category-2.jpg") no-repeat 50% 0;
+  background: url("img/category-2.jpg") no-repeat 50% 0;
   height: 180px;
   background-size: 120%;
 }
 
 .product-category .item .machine {
   position: relative;
-  background: url("/img/category-3.jpg") no-repeat 50% 0;
+  background: url("img/category-3.jpg") no-repeat 50% 0;
   height: 180px;
   background-size: 120%;
 }
 
 .product-category .item .sofa {
   position: relative;
-  background: url("/img/category-4.jpg") no-repeat 50% 0;
+  background: url("img/category-4.jpg") no-repeat 50% 0;
   height: 180px;
   background-size: 120%;
 }
 
 .product-category .item .headphone {
   position: relative;
-  background: url("/img/category-6.jpg") no-repeat 50% 0;
+  background: url("img/category-6.jpg") no-repeat 50% 0;
   height: 180px;
   background-size: 120%;
 }
