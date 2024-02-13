@@ -305,7 +305,7 @@
 }
 
 .menu-activ .menu .categories .menu-list .img-sale {
-  background-image: url(../img/menu-banner.jpg);
+  background-image: url(img/menu-banner.jpg);
   background-size: cover;
   background-position: 50% 50%;
   margin: 8px -4px;
@@ -408,7 +408,7 @@
 }
 
 .menu-activ .menu .products .menu-list .img-sale {
-  background-image: url(../img/);
+  background-image: url(img/menu-banner-1.jpg);
   background-size: cover;
   background-position: 50% 50%;
   margin: 8px 8px;
