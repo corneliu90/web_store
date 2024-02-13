@@ -293,7 +293,7 @@
 }
 
 .menu-activ .menu .categories .menu-list .img-sale {
-  background-image: url(/img/menu-banner-1.jpg);
+  background-image: url(../img/menu-banner-1.jpg);
   background-size: cover;
   background-position: 50% 50%;
   margin: 8px -4px;
