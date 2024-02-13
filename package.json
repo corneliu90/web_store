@@ -5,7 +5,7 @@
   "main": "index.js",
   "homepage": "https://corneliu90.github.io/web_store",
   "scripts": {
-    "deploy": "gh-pages -d"
+    "deploy": "gh-pages -d project"
   },
   "keywords": [],
   "author": "",
