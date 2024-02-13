@@ -1,0 +1,1527 @@
+.returns {
+  color: #777;
+  font-size: 11px;
+  font-weight: 600;
+}
+
+.account {
+  border-bottom: 1px solid #f0efef;
+}
+
+.menu {
+  color: #777;
+  font-size: 11px;
+  font-weight: 600;
+  text-transform: capitalize;
+  list-style-type: none;
+  gap: 30px;
+}
+
+.about-us .languages {
+  margin-right: 20px;
+}
+
+/* .about-us .languages:hover .fa-solid.fa-angle-down {
+  transform: rotate(180deg);
+} */
+
+.about-us .languages,
+.about-us .currencies {
+  color: #777;
+  font-size: 11px;
+  font-weight: 600;
+  list-style-type: none;
+  gap: 40px;
+  cursor: pointer;
+  padding: 15px 0;
+}
+
+.about-us {
+  position: relative;
+  margin-left: 50px;
+}
+
+.about-us .languages:hover .languages-list,
+.about-us .currencies:hover .currencies-list {
+  display: block;
+}
+
+.about-us .languages-list,
+.about-us .currencies-list {
+  color: #777;
+  font-size: 11px;
+  font-weight: 600;
+  list-style-type: none;
+  position: absolute;
+  display: none;
+  right: 226px;
+  top: 42px;
+  cursor: pointer;
+  box-shadow: 0 0 20px lightgray;
+  background-color: white;
+}
+
+.about-us .currencies-list {
+  right: 163px;
+}
+
+.about-us .currencies {
+  margin-right: 30px;
+}
+
+.about-us .languages-list::before,
+.about-us .currencies-list::before {
+  content: "";
+  width: 20px;
+  height: 20px;
+  background-color: white;
+  display: inline-block;
+  position: absolute;
+  top: -8px;
+  left: 36%;
+  z-index: 2;
+  transform: rotate(45deg);
+  box-shadow: 0 0 3px lightgrey;
+}
+
+.about-us .languages-list .languages-list-item,
+.about-us .currencies-list .currencies-list-item {
+  transition-property: color background-color;
+  transition-duration: 0.3s;
+  padding: 10px 15px;
+  position: relative;
+  background-color: white;
+  z-index: 2;
+}
+
+.about-us .languages-list .languages-list-item:hover,
+.about-us .currencies-list .currencies-list-item:hover {
+  color: #08c;
+  background-color: #f4f4f4;
+}
+
+.about-us .social .button {
+  margin: 0 10px;
+  width: 25px;
+  height: 25px;
+  float: left;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  overflow: hidden;
+}
+
+.about-us .social .button .icon {
+  display: inline-block;
+  width: 25px;
+  height: 25px;
+  border-radius: 50px;
+  box-sizing: border-box;
+  text-align: center;
+  transition: all 0.3s ease-in-out;
+}
+
+.about-us .social .button:nth-child(1):hover .icon {
+  background: #4267b2;
+}
+
+.about-us .social .button:nth-child(2):hover .icon {
+  background: #1da1f2;
+}
+
+.about-us .social .button:nth-child(3):hover .icon {
+  background: #e1306c;
+}
+
+.about-us .social .button .icon .social-title {
+  font-size: 14px;
+  line-height: 20px;
+  color: #777;
+  transition: all 0.3s ease-in-out;
+}
+
+.about-us .social .button:hover .icon .social-title {
+  color: #fff;
+}
+
+.about-us .social .button .text {
+  font-size: 12px;
+  font-weight: 400;
+  text-transform: capitalize;
+  line-height: 20px;
+}
+
+.about-us .social .button:nth-child(1):hover .text {
+  color: #4267b2;
+}
+
+.about-us .social .button:nth-child(2):hover .text {
+  color: #1da1f2;
+}
+
+.about-us .social .button:nth-child(3):hover .text {
+  color: #e1306c;
+}
+
+.porto {
+  padding: 25px;
+}
+
+.porto .search {
+  width: 402px;
+  padding: 13px;
+  border-radius: 30px 0 0 30px;
+  border: 0;
+  background: #f4f4f4;
+}
+
+.porto .select-custom {
+  width: 136px;
+  color: #777;
+  font-size: 12px;
+  background: #f4f4f4;
+  padding: 13px;
+  padding-right: 5px;
+  border: 0;
+  border-left: 1px solid #fff;
+  border-right: 1px solid #fff;
+}
+
+.porto .btn-search {
+  width: 50px;
+  padding: 11.5px;
+  font-size: 16px;
+  font-weight: 700;
+  border: 0;
+  border-radius: 0 30px 30px 0;
+  cursor: pointer;
+  color: #777;
+}
+
+.porto .header-contact .img-phone {
+  width: 30px;
+  height: 30px;
+  padding-top: 7px;
+}
+
+.porto .header-contact .call-us {
+  font-size: 11px;
+  color: #777;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.porto .header-contact .number {
+  font-size: 18px;
+  font-weight: 700;
+  cursor: pointer;
+  margin: 0;
+}
+
+.porto .icons .icon-contact {
+  width: 25px;
+  height: 25px;
+  color: #777;
+  margin: 12px;
+  cursor: pointer;
+  z-index: 2;
+}
+
+.porto .icons .shopping-icon {
+  position: relative;
+}
+
+.porto .icons .count-circle {
+  background: #ff5b5b;
+  border-radius: 50%;
+  width: 18px;
+  height: 18px;
+  color: #fff;
+  font-size: 10px;
+  text-align: center;
+  font-weight: 600;
+  position: absolute;
+  line-height: 17px;
+  left: 30px;
+  top: 10px;
+}
+
+.menu-activ {
+  position: relative;
+  border-top: 1px solid lightgray;
+}
+
+.menu-activ .menu {
+  font-size: 12px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.menu-activ .menu .categories {
+  padding-bottom: 20px;
+}
+
+.menu-activ .menu .categories .menu-list {
+  color: #777;
+  font-size: 11px;
+  font-weight: 600;
+  list-style-type: none;
+  position: absolute;
+  display: none;
+  top: 60px;
+  box-shadow: 0 0 20px lightgray;
+  background-color: white;
+}
+
+.menu-activ .menu .categories .menu-list::before {
+  content: "";
+  width: 30px;
+  height: 30px;
+  background-color: white;
+  display: inline-block;
+  position: absolute;
+  top: -10px;
+  left: 4%;
+  z-index: 2;
+  transform: rotate(45deg);
+  box-shadow: 0 0 3px lightgrey;
+}
+
+.menu-activ .menu .categories:hover .menu-list {
+  display: flex;
+  padding: 0 12px;
+}
+
+.menu-activ .menu .categories .menu-list .img-sale {
+  background-image: url(/img/menu-banner-1.jpg);
+  background-size: cover;
+  background-position: 50% 50%;
+  margin: 8px -4px;
+}
+
+.menu-activ .menu .categories .menu-list li {
+  margin: 20px 0;
+  white-space: nowrap;
+  width: min-content;
+  border-bottom: 1px solid transparent;
+  cursor: pointer;
+}
+
+.menu-activ .menu .categories .menu-list li:hover {
+  border-bottom: 1px solid grey;
+}
+
+.menu-activ .menu .categories .menu-list .variation {
+  font-size: 12px;
+  color: black;
+  font-weight: 700;
+  margin-top: 15px;
+}
+
+.menu-activ .menu .categories .menu-list .img-sale .menu-banner .up-to {
+  font-size: 31px;
+  font-weight: 700;
+  line-height: 31px;
+  white-space: nowrap;
+}
+
+.menu-activ .menu .categories .menu-list .img-sale .menu-banner .procent {
+  color: #f4762a;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 32px;
+}
+
+.menu-activ .menu .categories .menu-list .img-sale .menu-banner {
+  padding: 15px;
+  margin-right: 50px;
+}
+
+.menu-activ .menu .categories .menu-list .img-sale .menu-banner .off {
+  font-size: 18px;
+  font-weight: 600;
+  position: absolute;
+  transform: translateY(-50%) rotate(-90deg);
+  top: 153px;
+}
+
+.menu-activ .menu .categories .menu-list .img-sale .menu-banner .btn-shop {
+  font-size: 11px;
+  font-weight: 300;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+  padding: 6px;
+}
+
+.menu-activ .menu > li {
+  padding: 20px 0;
+  border: 2px solid transparent;
+  position: relative;
+  top: -1px;
+}
+
+.menu-activ .menu > li:hover {
+  border-top: 2px solid #08c;
+  color: #08c;
+}
+
+.menu-activ .menu .products .menu-list {
+  color: #777;
+  font-size: 11px;
+  font-weight: 600;
+  position: absolute;
+  display: none;
+  top: 60px;
+  box-shadow: 0 0 20px lightgray;
+  background-color: white;
+}
+
+.menu-activ .menu .products .menu-list::before {
+  content: "";
+  width: 30px;
+  height: 30px;
+  background-color: white;
+  display: inline-block;
+  position: absolute;
+  top: -10px;
+  left: 4%;
+  z-index: 2;
+  transform: rotate(45deg);
+  box-shadow: 0 0 3px lightgrey;
+}
+
+.menu-activ .menu .products:hover .menu-list {
+  display: flex;
+}
+
+.menu-activ .menu .products .menu-list .img-sale {
+  background-image: url(../img/menu-banner-1.jpg);
+  background-size: cover;
+  background-position: 50% 50%;
+  margin: 8px 8px;
+  padding: 8px 0x;
+}
+
+.menu-activ .menu .products .menu-list li {
+  margin: 17px;
+  white-space: nowrap;
+  width: min-content;
+  border-bottom: 1px solid transparent;
+  cursor: pointer;
+}
+
+.menu-activ .menu .products .menu-list li:hover {
+  border-bottom: 1px solid grey;
+}
+
+.menu-activ .menu .products .menu-list .variation {
+  font-size: 12px;
+  color: black;
+  font-weight: 700;
+  white-space: nowrap;
+  margin-bottom: 0;
+  margin: 15px 0 0 16px;
+}
+
+.menu-activ .menu .products .menu-list .img-sale .menu-banner .up-to {
+  font-size: 31px;
+  font-weight: 700;
+  line-height: 31px;
+  white-space: nowrap;
+}
+
+.menu-activ .menu .products .menu-list .img-sale .menu-banner .procent {
+  color: #08c;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 32px;
+}
+
+.menu-activ .menu .products .menu-list .img-sale .menu-banner {
+  padding-left: 89px;
+  padding-right: 10px;
+}
+
+.menu-activ .menu .products .menu-list .img-sale .menu-banner .off {
+  color: white;
+  font-size: 108px;
+  font-weight: 800;
+  position: absolute;
+  transform: translateY(-50%) rotate(-90deg);
+  top: 122px;
+  right: 53px;
+}
+
+.menu-activ .menu .products .menu-list .img-sale .btn-shop {
+  font-size: 11px;
+  font-weight: 300;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+  padding: 6px 25px;
+}
+
+.menu-activ .menu .products .menu-list .img-sale .btn {
+  margin-top: 215px;
+}
+
+.menu-activ .menu .pages .menu-list {
+  color: #777;
+  font-size: 11px;
+  font-weight: 600;
+  position: absolute;
+  display: none;
+  top: 60px;
+  left: -10px;
+  box-shadow: 0 0 20px lightgray;
+  background-color: white;
+  white-space: nowrap;
+}
+
+.menu-activ .menu .pages .menu-list .fa-angle-right {
+  padding-left: 130px;
+}
+
+.menu-activ .menu .pages:hover .menu-list {
+  display: flex;
+}
+
+.menu-activ .menu .pages .menu-list li {
+  transition-property: color background-color;
+  transition-duration: 0.3s;
+  padding: 10px 15px;
+  position: relative;
+  background-color: white;
+  z-index: 2;
+  cursor: pointer;
+}
+
+.menu-activ .menu .pages .menu-list li:hover {
+  background-color: #f4f4f4;
+}
+
+.menu-activ .menu .pages .menu-list .blog .list {
+  color: #777;
+  font-size: 11px;
+  font-weight: 600;
+  position: absolute;
+  display: none;
+  top: 0px;
+  right: -91px;
+  box-shadow: 0 0 20px lightgray;
+  background-color: white;
+}
+
+.menu-activ .menu .pages .menu-list .blog:hover .list {
+  display: flex;
+}
+
+.menu-activ .menu .elements .menu-list {
+  color: #777;
+  font-size: 11px;
+  font-weight: 600;
+  position: absolute;
+  display: none;
+  top: 60px;
+  left: -10px;
+  box-shadow: 0 0 20px lightgray;
+  background-color: white;
+  white-space: nowrap;
+}
+
+.menu-activ .menu .elements:hover .menu-list {
+  display: flex;
+}
+
+.menu-activ .menu .elements:hover .menu-list ul {
+  max-height: 410px;
+  overflow-y: scroll;
+  min-width: 200px;
+}
+
+.menu-activ .menu .elements .menu-list li {
+  transition-property: color background-color;
+  transition-duration: 0.3s;
+  padding: 10px 15px;
+  position: relative;
+  background-color: white;
+  z-index: 2;
+  cursor: pointer;
+}
+
+.menu-activ .menu .elements .menu-list li:hover {
+  background-color: #f4f4f4;
+}
+
+.electronic {
+  background-image: url(../img/banner-top.jpg);
+  padding: 70px;
+}
+
+.electronic .deals {
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 48px;
+  text-transform: uppercase;
+  margin: 0;
+  margin-bottom: 15px;
+}
+
+.electronic .btn-yours {
+  font-size: 12px;
+  font-weight: 700;
+  cursor: pointer;
+  text-transform: uppercase;
+  padding: 12px 16px;
+  background-color: #222529;
+}
+
+.electronic .exclusive {
+  font-size: 18px;
+  font-weight: 700;
+  color: #222529;
+  padding: 6px 7px;
+  background-color: #fff;
+  margin: 0;
+  display: inline-block;
+  margin-bottom: 5px;
+}
+
+.electronic .up-to {
+  font-size: 10px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin: 0;
+  position: absolute;
+  left: -25px;
+  top: 17px;
+  transform: translateY(-50%) rotate(-90deg);
+  opacity: 0.6;
+}
+
+.electronic .dolar {
+  font-size: 25px;
+  font-weight: 700;
+  background-color: white;
+  padding: 0 8px;
+  margin: 0;
+}
+
+.electronic .off-text {
+  font-size: 16px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.home {
+  padding: 15px;
+}
+
+.home .house-title {
+  color: #8e8e8e;
+  width: 14px;
+}
+
+.home .rumb {
+  font-size: 12px;
+  font-weight: 400;
+  color: #8e8e8e;
+}
+
+.home .men {
+  font-size: 12px;
+  font-weight: 400;
+  color: #8e8e8e;
+  text-transform: uppercase;
+}
+
+.home .accesories {
+  font-size: 12px;
+  font-weight: 400;
+  color: #8e8e8e;
+  text-transform: uppercase;
+}
+
+.porto-tehnics .categories {
+  flex: 0 0 25%;
+  max-width: 25%;
+}
+
+.porto-tehnics .categories .item {
+  box-sizing: border-box;
+  border: 1px solid lightgray;
+  padding: 20px;
+}
+
+.porto-tehnics .teh-item {
+  flex: 0 0 75%;
+  max-width: 75%;
+}
+
+.porto-tehnics .categories .item .categories-title .categor {
+  font-size: 15px;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: black;
+}
+
+.porto-tehnics .categories .item .categories-title .dress {
+  font-size: 14px;
+  font-weight: 500;
+  color: #777;
+  list-style-type: none;
+}
+
+.porto-tehnics .categories .item .categories-title .dress .sub-menu,
+.porto-tehnics .categories .item .categories-title .dress .sub-menu-2 {
+  height: 0;
+  overflow: hidden;
+  transition: height 0.5s;
+}
+
+.porto-tehnics .categories .item .categories-title .dress:hover .sub-menu {
+  height: 60px;
+}
+
+.porto-tehnics .categories .item .categories-title .dress:hover .sub-menu-2 {
+  height: 30px;
+}
+
+.porto-tehnics .categories .item .categories-title .dress:hover .angle {
+  transform: rotate(180deg);
+}
+
+.porto-tehnics .categories .item .categories-title .angle {
+  color: black;
+  width: 10px;
+  float: right;
+}
+
+.porto-tehnics .categories .item .categories-title li {
+  padding: 10px 0;
+  margin-left: 10px;
+  transition: all 0.3s;
+  padding-bottom: 0;
+}
+
+.porto-tehnics .categories .item .categories-title .title:hover {
+  color: #08c;
+}
+
+.porto-tehnics .categories .price {
+  box-sizing: border-box;
+  border: 1px solid lightgray;
+  padding: 20px;
+  border-top: 0;
+}
+
+.porto-tehnics .categories .price-title {
+  font-size: 15px;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: black;
+}
+
+.porto-tehnics .categories .price .item-price {
+  margin-bottom: 20px;
+}
+
+.porto-tehnics .categories .price .price-title {
+  font-size: 15px;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: black;
+  margin-bottom: 20px;
+}
+
+.porto-tehnics .categories .range {
+  width: 100%;
+}
+
+.porto-tehnics .categories .price .price-dolar {
+  font-size: 12px;
+  font-weight: 400;
+  color: #777;
+}
+
+.porto-tehnics .categories .price .btn-filter {
+  font-size: 12px;
+  font-weight: 600;
+  cursor: pointer;
+  padding: 10px 15px;
+  background-color: #08c;
+  border: 0;
+  text-transform: uppercase;
+}
+
+.porto-tehnics .categories .color {
+  box-sizing: border-box;
+  border: 1px solid lightgray;
+  padding: 20px;
+  border-top: 0;
+}
+
+.porto-tehnics .categories .color .color-title {
+  font-size: 15px;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: black;
+  margin-bottom: 20px;
+}
+
+.porto-tehnics .categories .color .color-item .black {
+  color: white;
+  padding: 6px 9px;
+  cursor: pointer;
+  font-size: 12px;
+  margin-right: 10px;
+  background-color: black;
+}
+
+.porto-tehnics .categories .color .color-item .blue {
+  background-color: #0188cc;
+  padding: 15px;
+  cursor: pointer;
+  font-size: 12px;
+  margin-right: 10px;
+}
+
+.porto-tehnics .categories .color .color-item .green {
+  background-color: #81d742;
+  padding: 15px;
+  cursor: pointer;
+  font-size: 12px;
+  margin-right: 10px;
+}
+
+.porto-tehnics .categories .color .color-item .blue-dark {
+  background-color: #6085a5;
+  padding: 15px;
+  cursor: pointer;
+  font-size: 12px;
+  margin-right: 10px;
+}
+
+.porto-tehnics .categories .color .color-item .red-dark {
+  background-color: #ab6e6e;
+  padding: 15px;
+  cursor: pointer;
+  font-size: 12px;
+  margin-right: 10px;
+}
+
+.porto-tehnics .categories .sizes {
+  box-sizing: border-box;
+  border: 1px solid lightgray;
+  padding: 20px;
+  border-top: 0;
+}
+
+.porto-tehnics .categories .sizes li {
+  padding: 4px 0;
+  border: 1px solid lightgray;
+  font-size: 11px;
+  margin-right: 5px;
+  min-width: 30px;
+  text-align: center;
+  color: #777;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.porto-tehnics .categories .sizes li:hover {
+  color: white;
+  background-color: #08c;
+}
+
+.porto-tehnics .categories .featured {
+  box-sizing: border-box;
+  border: 1px solid lightgray;
+  padding: 20px;
+  border-top: 0;
+}
+
+.porto-tehnics .categories .featured .featured-title {
+  font-size: 15px;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: black;
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.porto-tehnics .categories .featured .featured-title .angle-item {
+  position: absolute;
+  right: 14px;
+}
+
+.porto-tehnics .categories .featured .products-tehnical .img-teh {
+  transition-property: opacity;
+  transition-duration: 0.5s;
+  width: 100%;
+  cursor: pointer;
+}
+
+.porto-tehnics
+  .categories
+  .featured
+  .top-rated
+  .products-tehnical
+  .img-teh.first {
+  opacity: 1;
+}
+
+.porto-tehnics
+  .categories
+  .featured
+  .top-rated
+  .products-tehnical
+  .img-teh.second {
+  opacity: 0;
+}
+
+.porto-tehnics
+  .categories
+  .featured
+  .top-rated
+  .products-tehnical:hover
+  .img-teh.first {
+  opacity: 0;
+}
+
+.porto-tehnics
+  .categories
+  .featured
+  .top-rated:hover
+  .products-tehnical
+  .img-teh.second {
+  opacity: 1;
+}
+
+.porto-tehnics
+  .categories
+  .featured
+  .top-rated
+  .products-tehnical
+  .img-teh.second {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.porto-tehnics .categories .featured .ultimate {
+  font-size: 14px;
+  font-weight: 400;
+  margin-bottom: 5px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.porto-tehnics .categories .featured .ultimate:hover {
+  color: #08c;
+}
+
+.porto-tehnics .categories .featured .fa-star {
+  color: #777;
+  margin-bottom: 5px;
+  font-size: 11px;
+}
+
+.porto-tehnics .categories .featured .cost {
+  color: #222529;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.porto-tehnics .categories .featured .products-tehnical .img-teh {
+  width: 84px;
+}
+
+.porto-tehnics .categories .featured .top-rated {
+  margin-bottom: 10px;
+}
+
+.porto-tehnics .categories .custom-html {
+  box-sizing: border-box;
+  border: 1px solid lightgray;
+  padding: 20px;
+  border-top: 0;
+}
+
+.porto-tehnics .categories .custom-html .custom-title {
+  font-size: 15px;
+  color: #313131;
+  font-weight: 600;
+  line-height: 21px;
+  font-family: Poppins, sans-serif;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+.porto-tehnics .categories .custom-html .sub-title {
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 20px;
+  color: #313131;
+  margin: 0;
+}
+
+.porto-tehnics .categories .custom-html .lorem {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #777;
+  padding: 11px 34px 0 0;
+}
+
+.porto-tehnics .teh-item .item {
+  margin-bottom: 20px;
+}
+
+.porto-tehnics .teh-item label {
+  font-size: 13px;
+  color: #777;
+  margin-right: 5px;
+}
+
+.porto-tehnics .teh-item .show {
+  font-size: 13px;
+  font-weight: 400;
+  color: #777;
+  padding: 8px 8px;
+  border: 1px solid #dfdfdf;
+}
+
+.porto-tehnics .teh-item label {
+  font-size: 13px;
+  color: #777;
+}
+
+.porto-tehnics .teh-item .sort-by {
+  font-size: 13px;
+  font-weight: 400;
+  color: #777;
+  padding: 8px 8px;
+  border: 1px solid #dfdfdf;
+}
+
+.porto-tehnics .teh-item .products {
+  margin-bottom: 40px;
+}
+
+.porto-tehnics .teh-item .products .product.hot::before {
+  content: "Hot";
+  padding: 5px 11px;
+  text-transform: uppercase;
+  color: white;
+  font-weight: 600;
+  font-size: 10px;
+  line-height: 1;
+  border-radius: 12px;
+  background-color: #2ba968;
+  position: absolute;
+  z-index: 2;
+  left: 7px;
+  top: 7px;
+}
+
+.porto-tehnics .teh-item .products .product .procent20::before {
+  content: "-20%";
+  padding: 5px 11px;
+  text-transform: uppercase;
+  color: white;
+  font-weight: 600;
+  font-size: 10px;
+  line-height: 1;
+  border-radius: 12px;
+  background-color: #da5555;
+  position: absolute;
+  z-index: 2;
+  left: 7px;
+  top: 33px;
+}
+
+.porto-tehnics .teh-item .products .product .procent20-2::before {
+  content: "-20%";
+  padding: 5px 11px;
+  text-transform: uppercase;
+  color: white;
+  font-weight: 600;
+  font-size: 10px;
+  line-height: 1;
+  border-radius: 12px;
+  background-color: #da5555;
+  position: absolute;
+  z-index: 2;
+  left: 7px;
+  top: 7px;
+}
+
+.porto-tehnics .teh-item .products .product .procent30::before {
+  content: "-30%";
+  padding: 5px 11px;
+  text-transform: uppercase;
+  color: white;
+  font-weight: 600;
+  font-size: 10px;
+  line-height: 1;
+  border-radius: 12px;
+  background-color: #da5555;
+  position: absolute;
+  z-index: 2;
+  left: 7px;
+  top: 33px;
+}
+
+.porto-tehnics .teh-item .products .product .procent40::before {
+  content: "-30%";
+  padding: 5px 11px;
+  text-transform: uppercase;
+  color: white;
+  font-weight: 600;
+  font-size: 10px;
+  line-height: 1;
+  border-radius: 12px;
+  background-color: #da5555;
+  position: absolute;
+  z-index: 2;
+  left: 7px;
+  top: 33px;
+}
+
+.porto-tehnics .teh-item .products .product .procent20-2::before {
+  content: "-20%";
+  padding: 5px 11px;
+  text-transform: uppercase;
+  color: white;
+  font-weight: 600;
+  font-size: 10px;
+  line-height: 1;
+  border-radius: 12px;
+  background-color: #da5555;
+  position: absolute;
+  z-index: 2;
+  left: 7px;
+  top: 7px;
+}
+
+.porto-tehnics .teh-item .products .product .procent30-2::before {
+  content: "-30%";
+  padding: 5px 11px;
+  text-transform: uppercase;
+  color: white;
+  font-weight: 600;
+  font-size: 10px;
+  line-height: 1;
+  border-radius: 12px;
+  background-color: #da5555;
+  position: absolute;
+  z-index: 2;
+  left: 7px;
+  top: 7px;
+}
+
+.porto-tehnics .teh-item .products .product .procent40-2::before {
+  content: "-40%";
+  padding: 5px 11px;
+  text-transform: uppercase;
+  color: white;
+  font-weight: 600;
+  font-size: 10px;
+  line-height: 1;
+  border-radius: 12px;
+  background-color: #da5555;
+  position: absolute;
+  z-index: 2;
+  left: 7px;
+  top: 7px;
+}
+
+.porto-tehnics .teh-item .products .product .procent8-2::before {
+  content: "-8%";
+  padding: 5px 11px;
+  text-transform: uppercase;
+  color: white;
+  font-weight: 600;
+  font-size: 10px;
+  line-height: 1;
+  border-radius: 12px;
+  background-color: #da5555;
+  position: absolute;
+  z-index: 2;
+  left: 7px;
+  top: 7px;
+}
+
+.porto-tehnics .teh-item .products .product:hover {
+  box-shadow: 0 0 10px lightgray;
+}
+
+.porto-tehnics .teh-item .products .product .product-image {
+  transition-property: opacity;
+  transition-duration: 0.5s;
+  width: 100%;
+}
+
+.porto-tehnics .teh-item .products .product .product-image.first {
+  opacity: 1;
+}
+
+.porto-tehnics .teh-item .products .product .product-image.second {
+  opacity: 0;
+}
+.porto-tehnics .teh-item .products .product:hover .product-image.first {
+  opacity: 0;
+}
+
+.porto-tehnics .teh-item .products .product:hover .product-image.second {
+  opacity: 1;
+}
+
+.porto-tehnics .teh-item .product .product-image.second {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.porto-tehnics .teh-item .product .category-label {
+  color: gray;
+  font-size: 10px;
+  margin-bottom: 5px;
+  cursor: pointer;
+}
+
+.porto-tehnics .teh-item .product .category-label:hover {
+  color: #007bff;
+}
+
+.porto-tehnics .teh-item .product .product-title {
+  font-size: 14px;
+  margin-bottom: 5px;
+  cursor: pointer;
+}
+
+.porto-tehnics .teh-item .product .product-title:hover {
+  color: #007bff;
+}
+
+.porto-tehnics .teh-item .product .product-rating {
+  margin-bottom: 5px;
+}
+
+.porto-tehnics .teh-item .product .product-rating .fa-star {
+  color: gray;
+  font-size: 12px;
+}
+
+.porto-tehnics .teh-item .product .product-rating .fa-star.unselected {
+  color: lightgray;
+}
+
+.porto-tehnics .teh-item .product .prices {
+  gap: 10px;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.porto-tehnics .teh-item .product .prices .price {
+  font-size: 14px;
+  text-decoration: line-through;
+  color: lightgray;
+}
+
+.porto-tehnics .teh-item .product .product-options-btn {
+  border: none;
+  padding: 10px 20px;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: gray;
+  font-size: 12px;
+  position: relative;
+  transition-property: color background-color;
+  transition-duration: 0.3s;
+  cursor: pointer;
+}
+
+.porto-tehnics .teh-item .product .product-options-btn .img {
+  height: 34px;
+  position: absolute;
+  opacity: 0;
+  background-color: #f4f4f4;
+  transition-property: opacity left right;
+  transition-duration: 0.3s;
+  cursor: pointer;
+}
+
+.porto-tehnics .teh-item .product .product-options-btn .img1 {
+  top: 0;
+  left: 0;
+}
+
+.porto-tehnics .teh-item .product .product-options-btn .img2 {
+  top: 0;
+  right: 0;
+  padding: 9px 7px;
+  width: 17px;
+  height: 16px;
+  background-color: #f4f4f4;
+  color: #777;
+}
+
+.porto-tehnics .teh-item .product:hover .product-options-btn .img {
+  opacity: 1;
+}
+
+.porto-tehnics .teh-item .product:hover .product-options-btn .img1 {
+  left: -30px;
+}
+
+.porto-tehnics .teh-item .product:hover .product-options-btn {
+  background-color: black;
+  color: white;
+}
+
+.porto-tehnics .teh-item .product:hover .product-options-btn .img2 {
+  right: -30px;
+}
+
+.porto-tehnics .teh-item .line {
+  border: 1px solid #efefef;
+  margin-bottom: 30px;
+}
+
+.porto-tehnics .teh-item .pages {
+  margin-bottom: 50px;
+}
+
+.porto-tehnics .teh-item .pages label {
+  font-size: 13px;
+  color: #777;
+  margin-right: 5px;
+}
+
+.porto-tehnics .teh-item .pages .show {
+  font-size: 13px;
+  font-weight: 400;
+  color: #777;
+  padding: 8px 8px;
+  border: 1px solid #dfdfdf;
+}
+
+.porto-tehnics .teh-item .pages ul li {
+  padding: 5px 12px;
+  border: 1px solid #dfdfdf;
+  margin-right: 5px;
+  cursor: pointer;
+}
+
+.porto-tehnics .teh-item .pages ul li:nth-child(1) {
+  border-color: #0188cc;
+}
+
+.porto-tehnics .teh-item .pages ul li:nth-child(4) {
+  border: 0;
+}
+
+.porto-tehnics .teh-item .pages ul li:nth-child(5) {
+  border: 0;
+}
+
+.service-info {
+  background-color: #222529;
+  padding-top: 40px;
+}
+
+.service-info .service-info-title {
+  padding-bottom: 40px;
+}
+
+.service-info .info-all {
+  margin-bottom: 30px;
+}
+
+.service-info .info-all .contact-info {
+  font-size: 16px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.service-info .info-all .address {
+  font-size: 13px;
+  font-weight: 400;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+.service-info .info-all .street {
+  font-size: 13px;
+  font-weight: 400;
+  color: #a8a8a8;
+  text-transform: capitalize;
+  margin-bottom: 10px;
+  transition: all 0.3s;
+}
+
+.service-info .info-all .street:nth-child(5):hover,
+.service-info .info-all .street:nth-child(7):hover {
+  color: #007bff;
+  cursor: pointer;
+}
+
+.service-info .social-bottom .button-f {
+  margin: 0 5px;
+  width: 40px;
+  height: 40px;
+  float: left;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  overflow: hidden;
+}
+
+.service-info .social-bottom .button-f .icon-f {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  border-radius: 50px;
+  box-sizing: border-box;
+  text-align: center;
+  transition: all 0.3s ease-in-out;
+  line-height: 38px;
+  border: 1px solid #313438;
+}
+
+.service-info .social-bottom .button-f:nth-child(1):hover .icon-f {
+  background: #4267b2;
+}
+
+.service-info .social-bottom .button-f:nth-child(2):hover .icon-f {
+  background: #1da1f2;
+}
+
+.service-info .social-bottom .button-f:nth-child(3):hover .icon-f {
+  background: #7c4a3a;
+}
+
+.service-info .social-bottom .button-f .icon-f .social-title {
+  font-size: 14px;
+  line-height: 20px;
+  color: #777;
+  transition: all 0.3s ease-in-out;
+}
+
+.service-info .social-bottom .button-f:hover .icon-f .social-title {
+  color: #fff;
+}
+
+.service-info .customer-title {
+  font-size: 16px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.service-info .customer-service .service-item {
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #a8a8a8;
+  transition: all 0.3s;
+}
+
+.service-info .customer-service .service-item li:hover {
+  color: #007bff;
+  cursor: pointer;
+}
+
+.service-info .popular-tags .tags {
+  font-size: 16px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.service-info .popular-tags .tags-item li {
+  display: inline-block;
+  font-size: 11px;
+  border: 1px solid #313438;
+  color: #a8a8a8;
+  padding: 5px 9px;
+  margin: 4px 1px;
+  transition: all 0.3s;
+}
+
+.service-info .popular-tags .tags-item li:hover {
+  border-color: #fff;
+  color: #fff;
+  cursor: pointer;
+}
+
+.service-info .subscribe .newsletter {
+  font-size: 16px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.service-info .subscribe .information {
+  font-size: 13px;
+  font-weight: 400;
+  color: #a8a8a8;
+  line-height: 25px;
+  margin-bottom: 10px;
+  padding-right: 20px;
+}
+
+.service-info .subscribe .form-control {
+  border: 0;
+  border-radius: 5rem;
+  color: #777;
+  background-color: #292c30;
+  padding: 15px 30px;
+  width: 100%;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+}
+
+.service-info .service-info-title .subscribe .btn-control {
+  font-size: 13px;
+  padding: 15px 25px;
+  cursor: pointer;
+  font-weight: 700;
+  text-transform: uppercase;
+  border-radius: 5rem;
+  background-color: #0088cc;
+  border: 0;
+  color: white;
+  transition: all 0.3s;
+}
+
+.service-info .service-info-title .subscribe .btn-control:hover {
+  background-color: #00a3f5;
+  color: #fff;
+}
+
+.service-info .line-bottom {
+  border: 1px solid #313438;
+}
+
+.service-info .credit-cards {
+  font-size: 12px;
+  font-weight: 400;
+  color: #777;
+  padding: 35px;
+}
+
+.service-info .credit-cards .brand {
+  width: 42px;
+  padding: 0 8px;
+  background-size: 60% auto;
+  background-color: #d6d3cc;
+  background-repeat: no-repeat;
+  transition: opacity 0.25s;
+  filter: invert(1);
+  border-radius: 4px;
+}
+
+.service-info .credit-cards .brand:hover {
+  opacity: 0.7;
+}
