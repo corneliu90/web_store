@@ -1,0 +1,119 @@
+@media screen and (max-device-width: 992px) {
+  .container {
+    width: 100%;
+  }
+  .header-contact {
+    display: none;
+  }
+  .search-item > div {
+    display: none;
+  }
+  .porto > div:first-child {
+    flex-grow: 1;
+    background-color: initial;
+  }
+  .porto .btn-search {
+    color: initial;
+    font-size: 22px;
+    font-weight: 400;
+    font-family: "Open Sans", sans-serif;
+    background-color: inherit;
+  }
+  .watches {
+    margin: 0 15px;
+  }
+  .featured-products {
+    margin: 60px 15px;
+  }
+  .featured-products .products {
+    gap: 20px;
+  }
+  .featured-products .products > div:last-child {
+    display: none;
+  }
+  .featured-products .products > div:nth-child(4) {
+    display: none;
+  }
+  .featured-products .featured-products-title .title {
+    left: 37%;
+  }
+  .watches > div:last-child {
+    display: none;
+  }
+  .slider {
+    background-position: bottom;
+  }
+  .shipping > div:last-child {
+    display: none;
+  }
+  .search-item > div:last-child {
+    display: block;
+  }
+  .porto .icons .shopping-angle .fa-angle-left {
+    display: block;
+  }
+  .porto .icons .icon-contact {
+    color: initial;
+  }
+  .porto {
+    padding-right: 0;
+    justify-content: initial;
+  }
+  .porto .fa-bars {
+    display: block;
+  }
+  .menu {
+    display: none;
+  }
+  .account {
+    padding-left: 15px;
+  }
+  .big-sale .brends {
+    white-space: nowrap;
+    gap: initial;
+  }
+  .big-sale .btn-sale {
+    padding: 5px 10px;
+    transform: rotateZ(-2deg);
+  }
+  .product-category {
+    gap: initial;
+  }
+  .product-category > div:nth-child(4),
+  .product-category > div:nth-child(5) {
+    display: none;
+  }
+  .collection .brends img:nth-child(5),
+  .collection .brends img:nth-child(6) {
+    display: none;
+  }
+  .best-selling-products {
+    display: block;
+    margin: 66px 17px;
+  }
+  .service-info .service-info-title {
+    display: block;
+  }
+  .service-info .service-info-title > div {
+    margin: 0 0 0 10px;
+    gap: 20px;
+  }
+  .service-info .service-info-title > div:last-child {
+    gap: 20px;
+  }
+  .product-category .item > div:first-child {
+    height: 267px;
+  }
+  .product-category .item .dress1 {
+    background-size: 111%;
+  }
+  .product-category .item .machine {
+    background-size: 111%;
+  }
+  .collection .top-new .perfect-trends {
+    padding: 0;
+  }
+  .collection > div:nth-child(2) {
+    margin: 0 15px;
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "name": "web_store",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "homepage": "https://corneliu90.github.io/web_store",
+  "scripts": {
+    "deploy": "gh-pages -d"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "gh-pages": "^6.1.1"
+  }
+}
