@@ -1,1 +1,1 @@
-const baseURL = "web_store";
+const baseURL = "https://corneliu90.github.io/web_store";
